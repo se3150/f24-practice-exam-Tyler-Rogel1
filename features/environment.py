@@ -1,4 +1,4 @@
-import behave_webdriver
+import behave_webdriver # type: ignore
 
 def before_all(context):
     #context.behave_driver = behave_webdriver.Chrome.headless()
